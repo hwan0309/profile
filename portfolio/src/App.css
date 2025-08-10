@@ -1,0 +1,86 @@
+/* src/App.css */
+
+html, body {
+  width: 100%;
+  height: 100%; 
+  margin: 40px 0;
+  padding: 0;
+  display: flex; /* 이미 적용되어 있을 수 있으므로 명시적으로 추가 */
+  justify-content: center; /* ✅ body 내부의 컨텐츠를 가로 중앙에 정렬 */
+  align-items: flex-start; /* 컨텐츠가 상단에 배치되도록 설정 (필요시 조절) */
+}
+
+.container {
+  max-width: 600px; /* 원하는 최대 너비로 컨텐츠가 너무 넓게 퍼지는 것을 방지 */
+  margin: 0 auto;   /* 컨테이너 자체를 중앙에 배치 (body의 justify-content와 함께 작동) */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  /* text-align: center는 컨테이너 내부의 텍스트에 영향을 주므로, 
+     필요한 경우 각 하위 섹션에 개별적으로 적용하는 것이 좋습니다. */
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center; /* 헤더의 텍스트를 중앙에 정렬합니다. */
+}
+
+.title {
+  font-size: 2.5rem; /* 40px */
+  font-weight: bold;
+}
+.crtitle {
+  font-size: 1.5rem; /* 40px */
+  font-weight: bold;
+  margin-bottom: 30px;;
+}
+
+.subtitle {
+  font-size: 1.25rem; /* 20px */
+  color: #666;
+}
+
+.section {
+  margin-bottom: 30px;
+  text-align: center; /* 각 섹션의 텍스트를 중앙에 정렬합니다. */
+}
+
+.section-title {
+  font-size: 1.2rem; /* 24px */
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section-content {
+  color: #444;
+  line-height: 1.6;
+}
+
+.skills-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #444;
+  padding-left: 0;
+  margin: 0 auto; /* 리스트 자체를 중앙에 배치 */
+  max-width: 400px;
+  text-align: left; /* 리스트 텍스트는 왼쪽 정렬 권장 */
+}
+.skill-list {
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #fff;
+  padding-left: 0;
+  margin: 0 auto; /* 리스트 자체를 중앙에 배치 */
+  max-width: 400px;
+  text-align: left; /* 리스트 텍스트는 왼쪽 정렬 권장 */
+}
+
+.skills-list li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  font-size: 0.875rem; /* 14px */
+  color: #999;
+  margin-top: 50px;
+  text-align: center; /* 푸터의 텍스트를 중앙에 정렬합니다. */
+}
