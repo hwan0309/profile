@@ -86,9 +86,8 @@ export const content = {
               ],
             },
             {
-              title: '삼성 디스플레이 클라우드 개발',
+              title: '삼성 디스플레이 고도화',
               points: [
-                '과거 기상 데이터를 수집 및 전처리하여 예측 정확도 85% 모델 개발',
                 '모델을 REST API 형태로 패키징하고 Docker 이미지로 컨테이너화하여 배포',
                 'Microsoft Azure 클라우드 인프라 구성 및 사용자·개발자 환경 이중화',
               ],
@@ -216,7 +215,7 @@ export const content = {
         {
           title: '기상 예측 모델 · 클라우드 배포',
           meta: '삼성 디스플레이 · 솔텍시스템',
-          body: '과거 기상 데이터를 수집·전처리해 예측 정확도를 85%까지 끌어올린 모델을 개발하고, Docker 이미지로 실행 환경을 고정해 Azure에 안정적으로 배포했습니다.',
+          body: '기상 데이터를 수집하는 모델을 REST API로 패키징하고, Docker 이미지로 실행 환경을 고정한 뒤 Azure에 사용자·개발자 환경을 이중으로 구성해 배포했습니다.',
           tags: ['Python', 'TensorFlow', 'TypeScript', 'Docker', 'Azure'],
         },
         {
@@ -357,9 +356,8 @@ export const content = {
               ],
             },
             {
-              title: 'Samsung Display — cloud development',
+              title: 'Samsung Display system modernization',
               points: [
-                'Collected and preprocessed historical weather data to build a model reaching 85% prediction accuracy',
                 'Packaged the model as a REST API and containerized it as a Docker image for deployment',
                 'Configured Microsoft Azure cloud infrastructure with separate user and developer environments',
               ],
@@ -487,7 +485,7 @@ export const content = {
         {
           title: 'Weather prediction model & cloud delivery',
           meta: 'Samsung Display · Soltech System',
-          body: 'Collected and preprocessed historical weather data into a model reaching 85% accuracy, then pinned its runtime in a Docker image for a stable Azure deployment.',
+          body: 'Packaged the weather-collection model as a REST API, pinned its runtime in a Docker image, and deployed it on Azure with separate user and developer environments.',
           tags: ['Python', 'TensorFlow', 'TypeScript', 'Docker', 'Azure'],
         },
         {
