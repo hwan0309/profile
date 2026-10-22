@@ -91,7 +91,7 @@ export const content = {
           id: "soltech",
           period: "2024.09 - 2026.05",
           company: "솔텍시스템",
-          role: "웹 프론트엔드 개발",
+          role: "프론트엔드 개발",
           details: [
             {
               title: "수자원공사 고도화 및 웹 개발",
