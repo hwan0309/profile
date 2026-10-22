@@ -376,16 +376,16 @@ export const content = {
       items: [
         {
           id: "freelance-analytics",
-          period: "2026.10",
+          period: "2026.06",
           company: "Freelance",
-          role: "Web Analytics · GA4/GTM Tracking",
+          role: "Frontend Developer · GA4/GTM Tracking",
           details: [
             {
               title:
-                "Recovering missing GA4 purchase data for a fashion brand store (Cafe24)",
+                "Recovering missing GA4 purchase data for a fashion brand store",
               points: [
-                "Reconciled Cafe24 orders against GA4 by day, channel and ad creative, pinpointing that 58% of purchase events were never sent",
-                "Reverse-engineered the published GTM container and traced the cause to Cafe24 Front API rate limiting (429) plus missing error handling",
+                "Reconciled orders against GA4 by day, channel and ad creative, pinpointing that 58% of purchase events were never sent",
+                "Reverse-engineered the published GTM container and traced the cause to Front API rate limiting (429) plus missing error handling",
                 "Redesigned the order-complete tracking tag and verified it before and after in GTM Preview and on the live site",
                 "Scoped follow-up work: lost funnel events, click-time express-pay purchases, skewed traffic sources and full-page cart reloads",
               ],
@@ -407,7 +407,7 @@ export const content = {
           id: "soltech",
           period: "2024.09 - 2026.05",
           company: "Soltech System",
-          role: "Web Frontend Developer",
+          role: "Frontend Developer",
           details: [
             {
               title: "K-water system modernization & web development",
