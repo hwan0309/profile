@@ -163,7 +163,7 @@ export const content = {
         },
         {
           id: "paradise",
-          period: "2022.06 - 2023.09",
+          period: "2022.08 - 2023.08",
           company: "파라다이스 시티",
           role: "데이터 전략",
           details: [
