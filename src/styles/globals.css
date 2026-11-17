@@ -27,7 +27,7 @@
   color-scheme: dark;
 }
 
-:root[data-theme='light'] {
+:root[data-theme="light"] {
   --accent: #12a97f;
   --accent-2: #2563eb;
   --point: #9bbf00;
@@ -66,14 +66,24 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont,
-    'Apple SD Gothic Neo', 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+  font-family:
+    "Pretendard Variable",
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    "Segoe UI",
+    Roboto,
+    "Noto Sans KR",
+    sans-serif;
   font-size: 16px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   word-break: keep-all;
-  transition: background-color 0.4s var(--ease), color 0.4s var(--ease);
+  transition:
+    background-color 0.4s var(--ease),
+    color 0.4s var(--ease);
 }
 
 h1,
@@ -142,7 +152,9 @@ button {
 .reveal {
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transition:
+    opacity 0.7s var(--ease),
+    transform 0.7s var(--ease);
   transition-delay: var(--reveal-delay, 0ms);
   will-change: opacity, transform;
 }
@@ -172,7 +184,9 @@ button {
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 100;
-  transition: background-color 0.3s var(--ease), border-color 0.3s var(--ease),
+  transition:
+    background-color 0.3s var(--ease),
+    border-color 0.3s var(--ease),
     backdrop-filter 0.3s var(--ease);
   border-bottom: 1px solid transparent;
 }
@@ -213,7 +227,7 @@ button {
 }
 
 .brand__role::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -236,7 +250,9 @@ button {
   font-size: 0.88rem;
   font-weight: 500;
   color: var(--muted);
-  transition: color 0.25s var(--ease), background-color 0.25s var(--ease);
+  transition:
+    color 0.25s var(--ease),
+    background-color 0.25s var(--ease);
 }
 
 .nav__link:hover {
@@ -249,7 +265,7 @@ button {
 }
 
 .nav__link.is-active::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: 1px;
@@ -274,8 +290,11 @@ button {
   border-radius: 50%;
   border: 1px solid var(--border);
   color: var(--muted);
-  transition: color 0.25s var(--ease), border-color 0.25s var(--ease),
-    background-color 0.25s var(--ease), transform 0.25s var(--ease);
+  transition:
+    color 0.25s var(--ease),
+    border-color 0.25s var(--ease),
+    background-color 0.25s var(--ease),
+    transform 0.25s var(--ease);
 }
 
 .icon-btn:hover {
@@ -297,7 +316,9 @@ button {
   font-weight: 600;
   letter-spacing: 0.02em;
   color: var(--muted);
-  transition: color 0.25s var(--ease), border-color 0.25s var(--ease),
+  transition:
+    color 0.25s var(--ease),
+    border-color 0.25s var(--ease),
     background-color 0.25s var(--ease);
 }
 
@@ -372,18 +393,42 @@ button {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(58% 48% at 18% 22%, rgba(45, 212, 167, 0.34), transparent 62%),
-    radial-gradient(55% 52% at 82% 30%, rgba(74, 141, 255, 0.32), transparent 64%),
-    radial-gradient(70% 60% at 50% 104%, rgba(16, 46, 92, 0.6), transparent 70%),
+    radial-gradient(
+      58% 48% at 18% 22%,
+      rgba(45, 212, 167, 0.34),
+      transparent 62%
+    ),
+    radial-gradient(
+      55% 52% at 82% 30%,
+      rgba(74, 141, 255, 0.32),
+      transparent 64%
+    ),
+    radial-gradient(
+      70% 60% at 50% 104%,
+      rgba(16, 46, 92, 0.6),
+      transparent 70%
+    ),
     linear-gradient(160deg, #0d1a2c 0%, var(--bg) 55%, #0a1526 100%);
   animation: mesh 16s var(--ease) infinite alternate;
 }
 
-:root[data-theme='light'] .hero__bg {
+:root[data-theme="light"] .hero__bg {
   background:
-    radial-gradient(58% 48% at 18% 22%, rgba(18, 169, 127, 0.18), transparent 62%),
-    radial-gradient(55% 52% at 82% 30%, rgba(37, 99, 235, 0.16), transparent 64%),
-    radial-gradient(70% 60% at 50% 104%, rgba(203, 220, 245, 0.7), transparent 70%),
+    radial-gradient(
+      58% 48% at 18% 22%,
+      rgba(18, 169, 127, 0.18),
+      transparent 62%
+    ),
+    radial-gradient(
+      55% 52% at 82% 30%,
+      rgba(37, 99, 235, 0.16),
+      transparent 64%
+    ),
+    radial-gradient(
+      70% 60% at 50% 104%,
+      rgba(203, 220, 245, 0.7),
+      transparent 70%
+    ),
     linear-gradient(160deg, #f4f8ff 0%, var(--bg) 58%, #eef4ff 100%);
 }
 
@@ -401,10 +446,14 @@ button {
   background-size: 4px 4px;
   color: rgba(255, 255, 255, 0.06);
   mask-image: radial-gradient(70% 60% at 50% 40%, #000, transparent 78%);
-  -webkit-mask-image: radial-gradient(70% 60% at 50% 40%, #000, transparent 78%);
+  -webkit-mask-image: radial-gradient(
+    70% 60% at 50% 40%,
+    #000,
+    transparent 78%
+  );
 }
 
-:root[data-theme='light'] .hero__grain {
+:root[data-theme="light"] .hero__grain {
   color: rgba(15, 23, 42, 0.06);
 }
 
@@ -457,8 +506,11 @@ button {
   border-radius: 999px;
   font-size: 0.94rem;
   font-weight: 700;
-  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease),
-    background-color 0.25s var(--ease), border-color 0.25s var(--ease);
+  transition:
+    transform 0.25s var(--ease),
+    box-shadow 0.25s var(--ease),
+    background-color 0.25s var(--ease),
+    border-color 0.25s var(--ease);
 }
 
 .btn:hover {
@@ -471,7 +523,7 @@ button {
   box-shadow: 0 14px 34px -16px rgba(45, 212, 167, 0.8);
 }
 
-:root[data-theme='light'] .btn--primary {
+:root[data-theme="light"] .btn--primary {
   color: #ffffff;
 }
 
@@ -509,7 +561,7 @@ button {
 }
 
 .scroll-hint__line::after {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 14px;
@@ -566,7 +618,7 @@ button {
 }
 
 .section__eyebrow::before {
-  content: '';
+  content: "";
   width: 22px;
   height: 1px;
   background: var(--accent);
@@ -614,12 +666,15 @@ button {
   border-radius: var(--radius);
   background: var(--surface);
   overflow: hidden;
-  transition: transform 0.35s var(--ease), border-color 0.35s var(--ease),
-    background-color 0.35s var(--ease), box-shadow 0.35s var(--ease);
+  transition:
+    transform 0.35s var(--ease),
+    border-color 0.35s var(--ease),
+    background-color 0.35s var(--ease),
+    box-shadow 0.35s var(--ease);
 }
 
 .card::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0 0 auto 0;
   height: 2px;
@@ -765,7 +820,9 @@ button {
   font-size: 0.84rem;
   font-weight: 600;
   color: var(--text);
-  transition: background-color 0.25s var(--ease), border-color 0.25s var(--ease),
+  transition:
+    background-color 0.25s var(--ease),
+    border-color 0.25s var(--ease),
     color 0.25s var(--ease);
 }
 
@@ -778,7 +835,7 @@ button {
   transition: transform 0.3s var(--ease);
 }
 
-.tl__toggle[aria-expanded='true'] svg {
+.tl__toggle[aria-expanded="true"] svg {
   transform: rotate(90deg);
 }
 
@@ -824,7 +881,7 @@ button {
 }
 
 .detail__list li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 2px;
   top: 0.78em;
@@ -861,7 +918,7 @@ button {
 }
 
 .story__title::before {
-  content: '';
+  content: "";
   flex: none;
   width: 16px;
   height: 2px;
@@ -993,7 +1050,9 @@ button {
   margin-left: auto;
   flex: none;
   color: var(--muted);
-  transition: transform 0.3s var(--ease), color 0.3s var(--ease);
+  transition:
+    transform 0.3s var(--ease),
+    color 0.3s var(--ease);
 }
 
 .os__card:hover .os__arrow {
@@ -1080,7 +1139,9 @@ button {
   opacity: 0;
   transform: translateY(12px);
   pointer-events: none;
-  transition: opacity 0.3s var(--ease), transform 0.3s var(--ease),
+  transition:
+    opacity 0.3s var(--ease),
+    transform 0.3s var(--ease),
     color 0.3s var(--ease);
 }
 
@@ -1191,8 +1252,8 @@ button {
 @media print {
   /* 라이트 팔레트 강제 — 화면 테마와 무관하게 흰 배경으로 출력 */
   :root,
-  :root[data-theme='dark'],
-  :root[data-theme='light'] {
+  :root[data-theme="dark"],
+  :root[data-theme="light"] {
     --accent: #0f8f6c;
     --accent-2: #1d4ed8;
     --bg: #ffffff;
@@ -1431,4 +1492,30 @@ button {
     padding-top: 8pt;
     font-size: 8.5pt;
   }
+}
+
+.proj__links {
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.proj__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+  transition:
+    border-color 0.3s var(--ease),
+    color 0.3s var(--ease);
+}
+
+.proj__link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
 }
