@@ -235,6 +235,23 @@ export const content = {
       lead: ["프로젝트 세부 사항"],
       items: [
         {
+          title: "모바일 청첩장",
+          meta: "개인 프로젝트 · 2026",
+          body: "React와 TypeScript로 기획부터 배포까지 혼자 완성한 모바일 청첩장입니다. 데이터 파일 하나만 바꾸면 새 청첩장이 되는 템플릿 구조로 설계하고, 카카오맵·카카오톡 공유를 연동했으며, Supabase RLS로 방명록과 참석 여부의 읽기·쓰기 권한을 분리했습니다.",
+          tags: [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Supabase",
+            "Kakao API",
+            "Vercel",
+          ],
+          links: {
+            demo: "https://wedding-invitation-eta-virid-85.vercel.app",
+            github: "https://github.com/hwan0309/Wedding_invitation",
+          },
+        },
+        {
           title: "실시간 댐·보 모니터링 웹",
           meta: "솔텍시스템 · 2024 - 2026",
           body: "9개 댐과 16개 보의 실시간 데이터를 다루는 반응형 웹을 개발하고, 병목이 있던 기존 서버 구조를 분석해 함께 정리했습니다.",
@@ -551,6 +568,23 @@ export const content = {
       title: "Projects",
       lead: ["Project details"],
       items: [
+        {
+          title: "Mobile wedding invitation",
+          meta: "Personal project · 2026",
+          body: "A mobile wedding invitation I built solo from planning to deployment with React and TypeScript. Designed as a template where one data file produces a new invitation, integrated Kakao Maps and KakaoTalk sharing, and separated read/write permissions for the guestbook and RSVP with Supabase RLS.",
+          tags: [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Supabase",
+            "Kakao API",
+            "Vercel",
+          ],
+          links: {
+            demo: "https://wedding-invitation-eta-virid-85.vercel.app",
+            github: "https://github.com/hwan0309/Wedding_invitation",
+          },
+        },
         {
           title: "Real-time dam & weir monitoring web",
           meta: "Soltech System · 2024 - 2026",
