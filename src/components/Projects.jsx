@@ -1,6 +1,7 @@
-import { useSite } from '../context/SiteContext.jsx';
-import Reveal from './Reveal.jsx';
-import Section from './Section.jsx';
+import { useSite } from "../context/SiteContext.jsx";
+import Reveal from "./Reveal.jsx";
+import Section from "./Section.jsx";
+import { ArrowUpRightIcon, GithubIcon } from "./Icons.jsx";
 
 export default function Projects() {
   const { t } = useSite();
@@ -21,6 +22,30 @@ export default function Projects() {
                 </li>
               ))}
             </ul>
+            {item.links && (
+              <div className="proj__links">
+                {item.links.demo && (
+                  <a
+                    className="proj__link"
+                    href={item.links.demo}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    Demo <ArrowUpRightIcon width={14} height={14} />
+                  </a>
+                )}
+                {item.links.github && (
+                  <a
+                    className="proj__link"
+                    href={item.links.github}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <GithubIcon width={14} height={14} /> GitHub
+                  </a>
+                )}
+              </div>
+            )}
           </Reveal>
         ))}
       </div>
